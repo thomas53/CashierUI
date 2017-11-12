@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <!-- Global Metas -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sarang Komputer & Seluler</title>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--[if lt IE 9]> HTML5Shiv
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- CSS's -->
+    <!-- <link rel="stylesheet" href=""> -->
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+
+<body>
+    <header>
+        <nav class="nav-extended green darken-1">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo center">Komputer & Seluler</a>
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                <!-- <ul class="left hide-on-med-and-down">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li class="active"><a href="collapsible.html">JavaScript</a></li>
+                      </ul> -->
+            </div>
+            <div class="row green center" style="margin-bottom: 0;">
+                <form class="col s10 offset-s1">
+                    <div class="input-field">
+                        <i class="material-icons prefix">search</i>
+                        <input id="cari" type="search" class="validate">
+                        <label for="cari"></label>
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <div class="side-menu">
+            <ul id="slide-out" class="side-nav fixed white darken-2">
+                <li>
+                    <div class="user-view center">
+                        <!-- <div class="background">
+                        <img src="img/wall_office.jpg">
+                    </div> -->
+                        <a href="#!user"><!-- <img class="center" src="img/logo_comp.png" width="30%"> --><i class="material-icons black-text" style="font-size: 4em;">desktop_mac</i></a>
+                        <a href="#!name"><span class="green-text name">Username</span></a>
+                        <a href="#!email"><span class="green-text email">username@example.com</span></a>
+                        <div class="row black-text">
+                            <div class="col s4">
+                                <h6>Mode Malam</h6></div>
+                            <div class="col s8">
+                                <!-- Switch -->
+                                <div class="switch">
+                                    <label>
+                                        Off
+                                        <input type="checkbox" id="nightmode_switch">
+                                        <span class="lever"></span> On
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" class="waves-effect"><i class="material-icons">content_paste</i>Transaksi</a></li>
+                <li><a href="#" class="waves-effect"><i class="material-icons">local_shipping</i>Pengiriman</a></li>
+                <li>
+                    <a href="#" class="waves-effect"><i class="material-icons">layers</i>Inventori</a>
+                </li>
+                <li><a href="#" class="waves-effect"><i class="material-icons">devices_other</i>Barang</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <!-- <li><a class="subheader">Akun</a></li> -->
+                <li><a href="#" class="waves-effect"><i class="material-icons">settings</i>Pengaturan</a></li>
+                <li><a class="waves-effect logout" id="logout"><i class="material-icons">power_setting_new</i>Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="white darken-3">
+        <div class="row">
+            <div class="col s12">
+                <h2 class="center">Transaksi</h2>
+                <table class="responsive-table bordered highlight">
+                    <thead>
+                        <tr>
+                            <th>Kode Transaksi</th>
+                            <th>Tanggal</th>
+                            <th>Rincian</th>
+                            <th>Petugas</th>
+                            <th>Opsi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>123456</td>
+                            <td>1 Oktober 2017</td>
+                            <td>
+                                Item 1
+                            </td>
+                            <td>Kasir</td>
+                            <td>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn indigo" data-position="buttom" data-delay="50" data-tooltip="Detail"><i class="material-icons left">info</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn data-position=" buttom " data-delay="50 " data-tooltip="Edit ""><i class="material-icons left">create</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn red data-position=" buttom " data-delay="50 " data-tooltip="Hapus "lighten-2"><i class="material-icons left">delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>123456</td>
+                            <td>1 Oktober 2017</td>
+                            <td>
+                                Item 1
+                            </td>
+                            <td>Kasir</td>
+                            <td>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn indigo" data-position="buttom" data-delay="50" data-tooltip="Detail"><i class="material-icons left">info</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn data-position=" buttom " data-delay="50 " data-tooltip="Edit ""><i class="material-icons left">create</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn red data-position=" buttom " data-delay="50 " data-tooltip="Hapus "lighten-2"><i class="material-icons left">delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>123456</td>
+                            <td>1 Oktober 2017</td>
+                            <td>
+                                Item 1
+                            </td>
+                            <td>Kasir</td>
+                            <td>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn indigo" data-position="buttom" data-delay="50" data-tooltip="Detail"><i class="material-icons left">info</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn data-position=" buttom " data-delay="50 " data-tooltip="Edit ""><i class="material-icons left">create</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn red data-position=" buttom " data-delay="50 " data-tooltip="Hapus "lighten-2"><i class="material-icons left">delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>123456</td>
+                            <td>1 Oktober 2017</td>
+                            <td>
+                                Item 1
+                            </td>
+                            <td>Kasir</td>
+                            <td>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn indigo" data-position="buttom" data-delay="50" data-tooltip="Detail"><i class="material-icons left">info</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn data-position=" buttom " data-delay="50 " data-tooltip="Edit ""><i class="material-icons left">create</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn red data-position=" buttom " data-delay="50 " data-tooltip="Hapus "lighten-2"><i class="material-icons left">delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>123456</td>
+                            <td>1 Oktober 2017</td>
+                            <td>
+                                Item 1
+                            </td>
+                            <td>Kasir</td>
+                            <td>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn indigo" data-position="buttom" data-delay="50" data-tooltip="Detail"><i class="material-icons left">info</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn data-position=" buttom " data-delay="50 " data-tooltip="Edit ""><i class="material-icons left">create</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn red data-position=" buttom " data-delay="50 " data-tooltip="Hapus "lighten-2"><i class="material-icons left">delete</i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>123456</td>
+                            <td>1 Oktober 2017</td>
+                            <td>
+                                Item 1
+                            </td>
+                            <td>Kasir</td>
+                            <td>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn indigo" data-position="buttom" data-delay="50" data-tooltip="Detail"><i class="material-icons left">info</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn data-position=" buttom " data-delay="50 " data-tooltip="Edit ""><i class="material-icons left">create</i></a>
+                                <a class="btn-floating tooltipped waves-effect waves-light btn red data-position=" buttom " data-delay="50 " data-tooltip="Hapus "lighten-2"><i class="material-icons left">delete</i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="lblRekapPB"></div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script> -->
+    <script src="js/materialize.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        var status = 0;
+    });
+    $(".button-collapse").sideNav();
+    $(document).ready(function() {
+        $('.tooltipped').tooltip({ delay: 5 });
+    });
+    $("#nightmode_switch").click(function() {
+        if (status == 1) {
+            $("main").removeClass("grey");
+            $("main").removeClass("teal-text text-accent-3");
+            $("main").addClass("white");
+            $("ul").removeClass("grey");
+            $("ul").addClass("white");
+            $("ul li a").removeClass("white-text");
+            $("ul li a i").removeClass("white-text");
+            $("div .row").removeClass("white-text");
+            $("div .row").addClass("black-text");
+            status = 0;
+
+        } else {
+            $("main").removeClass("white");
+            $("main").addClass("grey");
+            $("main").addClass("teal-text text-accent-3");
+            $("ul").removeClass("white");
+            $("ul").addClass("grey");
+            $("ul li a").addClass("white-text");
+            $("ul li a i").addClass("white-text");
+            $("div .row").removeClass("black-text");
+            $("div .row").addClass("white-text");
+            status = 1;
+
+        }
+    });
+    $("#logout").click(function () {
+        location.replace("http://localhost/ekasir/login.html");
+    })
+    function updateLblRekapPB(txt) {
+        $("#lblRekapPB").text(txt)
+    }    
+
+    </script>    
+</body>
+
+</html>
